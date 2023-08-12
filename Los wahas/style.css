@@ -1,0 +1,105 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f5f5f5;
+    margin:  15     px;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 40px;
+}
+header {
+    background-color: #cc9696;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    max-width: 1200px;
+    height: calc (30px);
+    padding: 40px;
+    margin: 2px;
+}
+.miembros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.miembros li {
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    
+}
+.miembros ul li a {
+    text-decoration: none;
+    color: #000;
+    background: red;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.miembros ul li a:hover {
+    background: green;
+}
+.Foto-yago {
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 20px;
+    
+}
+.Foto-lucas {
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.Foto-tomas {
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 20px;
+}   
+.Foto-luna {
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.Foto-valen {
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.Foto-mili {
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 15px
+}
+.Foto-mer {
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+}
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.galeria video {
+    width: 300px;
+    border-radius: 20px;
+    margin: 20px;
+}
